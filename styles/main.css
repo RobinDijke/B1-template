@@ -157,6 +157,22 @@ button{
   cursor: pointer;
 }
 
+.emphasize{
+  border-left: solid;
+  border-left-width: 5px;
+  border-style: solid;
+  border-color: #27AE60;
+  border-right-width: 2px;
+  border-bottom-width: 2px;
+  border-top-width: 2px;
+  box-shadow: 1px 0px 5px #27AE60;
+  padding: 1em;
+}
+.emphasize h2{
+  border: none;
+  margin: 0;
+  text-align: center;
+}
 .payment-option1{
   height: 64px;
   margin-left: 120px;
